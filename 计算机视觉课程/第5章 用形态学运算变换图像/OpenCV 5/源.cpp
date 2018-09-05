@@ -1,0 +1,48 @@
+#include <opencv2\highgui\highgui.hpp>
+#include <opencv2\imgproc\imgproc.hpp>
+
+void main()
+{
+	// 读取输入图像
+	cv::Mat image = cv::imread("binary.bmp");
+	//image = cv::Scalar(255, 255, 255) - image;
+	cv::imshow("原图", image);
+	cv::waitKey();
+
+	// 腐蚀图像
+	cv::Mat eroded;	// 目标图像
+	// 结构元素传空矩阵表示使用默认3×3正方形结构元素
+	cv::erode(image, eroded, cv::Mat());
+	cv::imshow("腐蚀结果", eroded);
+
+	// 膨胀图像
+	cv::Mat dilated;	// 目标图像
+	// 结构元素传空矩阵表示使用默认3×3正方形结构元素
+	cv::dilate(image, dilated, cv::Mat());
+	cv::imshow("膨胀结果", dilated);
+	cv::waitKey();
+
+	// 使用自定义的7×7结构元素(元素值全为1)
+	cv::Mat element(7, 7, CV_8U, cv::Scalar(1));
+	cv::erode(image, eroded, element);
+	cv::imshow("7×7结构元素腐蚀结果", eroded);
+	cv::waitKey();
+
+	// 腐蚀图像三次
+	cv::erode(image, eroded, cv::Mat(), cv::Point(-1, -1), 3);
+	cv::imshow("腐蚀图像三次结果", eroded);
+	cv::waitKey();
+
+	// 闭运算
+	cv::Mat element5(5, 5, CV_8U, cv::Scalar(1));
+	cv::Mat closed;
+	cv::morphologyEx(image, closed, cv::MORPH_CLOSE, element5);
+	cv::imshow("闭运算结果", closed);
+
+	// 开运算
+	cv::Mat opened;
+	cv::morphologyEx(image, opened, cv::MORPH_OPEN, element5);
+	cv::imshow("开运算结果", opened);
+
+	cv::waitKey();
+}

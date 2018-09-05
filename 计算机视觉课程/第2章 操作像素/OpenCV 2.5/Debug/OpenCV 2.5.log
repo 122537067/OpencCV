@@ -1,0 +1,5 @@
+﻿  源.cpp
+f:\教学\计算机视觉\课程资料\第2章 操作像素\opencv 2.5\源.cpp(43): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+f:\教学\计算机视觉\课程资料\第2章 操作像素\opencv 2.5\源.cpp(99): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  OpenCV 2.5.vcxproj -> F:\教学\计算机视觉\课程资料\第2章 操作像素\OpenCV 2.5\Debug\OpenCV 2.5.exe
+  OpenCV 2.5.vcxproj -> F:\教学\计算机视觉\课程资料\第2章 操作像素\OpenCV 2.5\Debug\OpenCV 2.5.pdb (Full PDB)
