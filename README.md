@@ -10,4 +10,5 @@
 <br>
 2.颜色处理<br>
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/1-2Entry/photo/1-2-1.png)
-
+3.插入logo
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/1-2Entry/photo/1-3-1.jpg)
