@@ -17,6 +17,6 @@
 <br><br><br>
 ***
 
-## 一、像素处理<br>
+## 二、像素处理<br>
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-2.png)
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-3.png)
