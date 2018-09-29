@@ -20,3 +20,8 @@
 ## 二、像素处理<br>
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-2.png)
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-3.png)
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-4.png)
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-5.png)
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-6.png)
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-7.png)
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-8.png)
