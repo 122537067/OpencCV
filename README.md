@@ -13,3 +13,10 @@
 <br><br><br>
 3.插入logo
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/1-2Entry/photo/1-3-1.jpg)
+
+<br><br><br>
+***
+
+## 二、像素处理<br>
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-2.png)
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-3.png)
