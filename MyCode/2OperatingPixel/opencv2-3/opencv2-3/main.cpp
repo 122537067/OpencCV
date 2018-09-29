@@ -21,13 +21,16 @@ void colorReduce(Mat image , int div = 64)
     }
     int nr = image.rows; //行数
     int nc = image.cols * image.channels();  //每行的元素数量（注意不是像素数量）
+    cout<<"channels="<<image.channels()<<endl;
+    cout<<nc<<endl;
     
     for (int j = 0; j< nr; j++)
     {
-        uchar* data = image.ptr<uchar>(j);
-        for (int i = 0; i < nr ; i++)
+        uchar* data = image.ptr<uchar>(j); //访问图像中一行的起始地址
+        for (int i = 0; i < nc ; i++)
         {
-            data[i] = saturate_cast<uchar>(data[i] / div * div + div /2);
+            //data[i] = saturate_cast<uchar>(data[i] / div * div + div /2);
+            data[i] = data[i] / div * div + div/2;
         }
     }
 }
@@ -67,6 +70,7 @@ void colorReduce(const cv::Mat &image,    //  输入图像
     // 每行的元素数量
     int nc = image.cols * image.channels();
     
+    
     for (int j = 0; j < nr; j++) { // 遍历
         // 取得行j的输入和输出地址
         const uchar* data_in = image.ptr<uchar>(j);
@@ -89,6 +93,7 @@ int main()
     cout << image.cols << " x " << image.rows << "=" << image.total() << endl;
     
     // 处理图像
+    //colorReduceWithBitOperation(image,6);
     colorReduce(image, 64);
     //colorReduceWithBitOperation(image, 6);
     
