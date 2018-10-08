@@ -32,3 +32,13 @@
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-7.png)
 ### 2-8.图像重映射<br/>
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/2OperatingPixel/image/2-8.png)
+<br><br><br>
+***
+
+## 三、处理图像的颜色<br>
+### 3-2.用策略设计模式比较颜色<br/>
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/3ImageColor/image/3-2.png)
+### 3-4.转换颜色表示法<br/>
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/3ImageColor/image/3-4.png)
+### 3-5.用色度、饱和度和亮度表示颜色<br/>
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/3ImageColor/image/3-5.png)
