@@ -84,3 +84,22 @@
 ***
 
 
+## 七、提取直线、轮廓和区域
+### 7-2.用canny算子监测图像轮廓
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/7StraightLinesOutlinesRegions/7-2.png)
+<br><br><br>
+***
+
+## 十一、处理视频序列
+### 11-2.读取视频序列
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-2.png)
+### 11-3.处理视频帧
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-3.png)
+### 11-4.写入视频帧
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-4.png)
+### 11-5.提取视频中的前景物体
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-5.png)
+### 11-6.提取视频中的前景物体
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-6.png)
+<br><br><br>
+***
