@@ -66,7 +66,21 @@
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/5Morphology/image/5.png)
 ### 5-4.在灰度图像中应用形态学运算
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/5Morphology/image/5-4.png)
+<br><br><br>
+***
 
 
+
+## 六、图像滤波
+### 6-2.低通滤波器
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/6ImageFiltering/image/6-2.png)
+### 6-3.用滤波器进行缩减像素采样
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/6ImageFiltering/image/6-3.png)
+### 6-4.中值滤波器
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/6ImageFiltering/image/6-4.png)
+### 6-5.用滤波器进行缩减像素采样
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/6ImageFiltering/image/6-5.png)
+<br><br><br>
+***
 
 
