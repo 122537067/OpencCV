@@ -66,7 +66,40 @@
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/5Morphology/image/5.png)
 ### 5-4.在灰度图像中应用形态学运算
 ![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/5Morphology/image/5-4.png)
+<br><br><br>
+***
 
 
 
+## 六、图像滤波
+### 6-2.低通滤波器
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/6ImageFiltering/image/6-2.png)
+### 6-3.用滤波器进行缩减像素采样
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/6ImageFiltering/image/6-3.png)
+### 6-4.中值滤波器
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/6ImageFiltering/image/6-4.png)
+### 6-5.用滤波器进行缩减像素采样
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/6ImageFiltering/image/6-5.png)
+<br><br><br>
+***
 
+
+## 七、提取直线、轮廓和区域
+### 7-2.用canny算子监测图像轮廓
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/7StraightLinesOutlinesRegions/7-2.png)
+<br><br><br>
+***
+
+## 十一、处理视频序列
+### 11-2.读取视频序列
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-2.png)
+### 11-3.处理视频帧
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-3.png)
+### 11-4.写入视频帧
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-4.png)
+### 11-5.提取视频中的前景物体
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-5.png)
+### 11-6.提取视频中的前景物体
+![Image text](https://github.com/122537067/OpencCV/blob/master/MyCode/11VideoSequences/image/11-6.png)
+<br><br><br>
+***
